@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   # match 'users/:id' => 'users#show', as: :user
   root to: "questions#index"
   # root :to => 'questions#index'
+  get '/user' => 'users#show'
   # get '/signup' => 'users#new'
   # post '/users' => 'users#create'
   #
